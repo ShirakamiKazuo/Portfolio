@@ -10,7 +10,6 @@
 
 ![Portfolio Preview](images/preview.png)
 
-> _Replace this with an actual screenshot of your site. You can drag and drop an image into the GitHub editor to upload it._
 
 ---
 
@@ -73,7 +72,7 @@ Portfolio/
 
 **Aldrick**
 - GitHub: [@ShirakamiKazuo](https://github.com/ShirakamiKazuo)
-- LinkedIn: [Add your LinkedIn URL here]
+- LinkedIn: [https://www.linkedin.com/in/braganaza01/]
 - Facebook: [facebook.com/profile](https://www.facebook.com/profile.php?id=100082291393545)
 
 ---
