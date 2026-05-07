@@ -127,6 +127,18 @@ nav {
   50% { opacity: 0.4; transform: scale(0.7); }
 }
 
+.profile-photo {
+  width: 100%;
+  max-width: 320px;
+  aspect-ratio: 4/5;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 16px;
+  border: 1px solid var(--border);
+  display: block;
+  margin: 0 auto;
+}
+
 .hero h1 {
   font-family: 'Syne', sans-serif;
   font-size: clamp(2.8rem, 7vw, 5rem);
