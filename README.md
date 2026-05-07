@@ -72,7 +72,7 @@ Portfolio/
 
 **Aldrick**
 - GitHub: [@ShirakamiKazuo](https://github.com/ShirakamiKazuo)
-- LinkedIn: [https://www.linkedin.com/in/braganaza01/]
+- LinkedIn: (https://www.linkedin.com/in/braganaza01/)
 - Facebook: [facebook.com/profile](https://www.facebook.com/profile.php?id=100082291393545)
 
 ---
