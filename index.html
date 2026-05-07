@@ -1,94 +1,348 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.min.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="images/logo.png">
-    <title>My portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aldrick | Web Developer & Cybersecurity Learner</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-    <nav>
-        <div class="nav-logo">
-            <a href="#">
-                <img src="images/logo.png">
-            </a>
-        </div>
+<nav>
+  <div class="nav-logo">AK<span>.</span></div>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#learning">Learning</a></li>
+    <li><a href="#contact" class="nav-cta">Contact</a></li>
+  </ul>
+</nav>
 
-        <ul class="nav-links">
-            <li class="link"><a href="#">Home</a></li>
-            <li class="link"><a href="#">Skills</a></li>
-            <li class="link"><a href="#">Hobbies</a></li>
-            <li class="link"><a href="#">About</a></li>
-        </ul>
-    </nav>
+<header class="hero">
+  <div class="hero-grid"></div>
+  <div class="hero-glow"></div>
+  <div class="hero-content">
+    <div class="hero-badge">Open to opportunities</div>
+    <h1>
+      Hi, I'm <span class="name">Aldrick</span><br>
+      <span class="line2">Web Developer &amp; Security Learner</span>
+    </h1>
+    <p class="hero-desc">
+      BSIT graduate building web applications and exploring the world of cybersecurity.
+      I write clean code and think about how to break it — so others can't.
+    </p>
+    <div class="hero-actions">
+      <a href="#projects" class="btn-primary">View my work</a>
+      <a href="https://github.com/ShirakamiKazuo" target="_blank" class="btn-outline">GitHub Profile ↗</a>
+    </div>
+    <div class="hero-stats">
+      <div>
+        <div class="stat-num">BSIT</div>
+        <div class="stat-label">Graduate</div>
+      </div>
+      <div>
+        <div class="stat-num">7+</div>
+        <div class="stat-label">Repos on GitHub</div>
+      </div>
+      <div>
+        <div class="stat-num">2</div>
+        <div class="stat-label">Tracks: Web + Security</div>
+      </div>
+    </div>
+  </div>
+</header>
 
-    <header class="container">
-        <div class="content">
-            <span class="blur"></span>
-            <span class="blur"></span>
-            <h4>Learning Web Development</h4>
-            <H1>Hi, I'm <span>Aldrick</span>, Web Developer</H1>
-            <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus rem eos aliquid quo rerum
-                temporibus ipsum distinctio numquam ut omnis placeat, nam sint atque quos dolorem laborum? Rerum, esse
-                dolorem.
-            </p>
-        </div>
-        <div class="image">
-            <img src="images/Formal Picture.png">
-        </div>
-    </header>
+<hr class="divider">
 
-    <h1 class="skill-header">Skills</h1>
+<section id="about">
+  <div class="about-photo-wrap">
+    <div class="photo-placeholder">
+      <div class="photo-icon">📸</div>
+      <span>Replace with your photo<br><small>Formal Picture.png</small></span>
+    </div>
+    <div class="about-corner">
+      <div class="label">Based in</div>
+      <div class="val">Philippines 🇵🇭</div>
+    </div>
+  </div>
+  <div class="about-text">
+    <p class="section-tag">About me</p>
+    <h2>Builder. Problem solver.<br>Security-minded dev.</h2>
+    <p>
+      I'm <strong>Aldrick</strong>, a <strong>BSIT graduate</strong> with a passion for building things on the web
+      and understanding how they can be made more secure. I started with HTML and CSS, worked my way through
+      JavaScript, and now I'm on a mission to bridge web development with cybersecurity.
+    </p>
+    <p>
+      I believe the best developers understand both how to build systems <em>and</em> how attackers think
+      about breaking them. That dual perspective is what I'm actively developing.
+    </p>
+    <p>
+      When I'm not coding, you'll find me doing CTF challenges, reading about OWASP vulnerabilities,
+      or tinkering with personal projects on GitHub.
+    </p>
+    <div class="about-tags">
+      <span class="tag">HTML / CSS</span>
+      <span class="tag">JavaScript</span>
+      <span class="tag">Python</span>
+      <span class="tag">Java</span>
+      <span class="tag">Networking</span>
+      <span class="tag">Linux</span>
+      <span class="tag">OWASP</span>
+      <span class="tag">TryHackMe</span>
+    </div>
+  </div>
+</section>
 
-    <section class="cards">
-        <div class="card card1">HTML</div>
-        <div class="card card2">CSS</div>
-        <div class="card card3">JavaScript</div>
-    </section>
+<hr class="divider">
 
+<section id="skills">
+  <p class="section-tag">What I work with</p>
+  <h2 class="section-title">Skills &amp; tools</h2>
+  <p class="section-sub">My tech stack spans web development fundamentals and growing cybersecurity knowledge.</p>
+  <div class="skills-grid">
+    <div class="skill-card">
+      <div class="skill-card-header">
+        <div class="skill-icon web">🌐</div>
+        <div>
+          <h3>Web Development</h3>
+          <div class="sub">Frontend &amp; Backend</div>
+        </div>
+      </div>
+      <div class="skill-pills">
+        <span class="skill-pill blue">HTML5</span>
+        <span class="skill-pill blue">CSS3</span>
+        <span class="skill-pill blue">JavaScript</span>
+        <span class="skill-pill">Responsive Design</span>
+        <span class="skill-pill">Git &amp; GitHub</span>
+        <span class="skill-pill">Python</span>
+        <span class="skill-pill">Java</span>
+        <span class="skill-pill">REST APIs</span>
+      </div>
+    </div>
+    <div class="skill-card">
+      <div class="skill-card-header">
+        <div class="skill-icon sec">🔐</div>
+        <div>
+          <h3>Cybersecurity</h3>
+          <div class="sub">Learning &amp; Growing</div>
+        </div>
+      </div>
+      <div class="skill-pills">
+        <span class="skill-pill accent">OWASP Top 10</span>
+        <span class="skill-pill accent">Web App Security</span>
+        <span class="skill-pill">Linux CLI</span>
+        <span class="skill-pill">Networking Basics</span>
+        <span class="skill-pill">TryHackMe</span>
+        <span class="skill-pill">Kali Linux</span>
+        <span class="skill-pill">Nmap</span>
+        <span class="skill-pill">Burp Suite (learning)</span>
+      </div>
+    </div>
+    <div class="skill-card">
+      <div class="skill-card-header">
+        <div class="skill-icon" style="background:rgba(255,200,0,0.1);color:#f5c518;">🛠️</div>
+        <div>
+          <h3>Tools &amp; Workflow</h3>
+          <div class="sub">Dev environment</div>
+        </div>
+      </div>
+      <div class="skill-pills">
+        <span class="skill-pill">VS Code</span>
+        <span class="skill-pill">Git</span>
+        <span class="skill-pill">GitHub Pages</span>
+        <span class="skill-pill">Chrome DevTools</span>
+        <span class="skill-pill">Figma (basic)</span>
+      </div>
+    </div>
+    <div class="skill-card">
+      <div class="skill-card-header">
+        <div class="skill-icon" style="background:rgba(180,0,255,0.1);color:#c46fff;">🎓</div>
+        <div>
+          <h3>Academic background</h3>
+          <div class="sub">BSIT — Philippines</div>
+        </div>
+      </div>
+      <div class="skill-pills">
+        <span class="skill-pill">Data Structures</span>
+        <span class="skill-pill">Database Systems</span>
+        <span class="skill-pill">Computer Networks</span>
+        <span class="skill-pill">Software Engineering</span>
+        <span class="skill-pill">Operating Systems</span>
+      </div>
+    </div>
+  </div>
+</section>
 
-    <footer class="container">
-        <span class="blur"></span>
-        <span class="blur"></span>
-        <div class="column">
-            <div class="logo">
-                <img src="images/logo.png">
-            </div>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            </p>
-            <div class="socials">
-                <a href="#"><i class="ri-discord-line"></i></a>
-                <a href="https:/www.facebook.com/profile.php?id=100082291393545"><i class="ri-facebook-line"></i></a>
-                <a href="#"><i class="ri-twitter-line"></i></a>
-            </div>
-        </div>
-        <div class="column">
-            <h4>Dunno</h4>
-            <a href="#">Don't know</a>
-            <a href="#">Don't know</a>
-            <a href="#">Don't know</a>
-        </div>
-        <div class="column">
-            <h4>About Me</h4>
-            <a href="#">Skills</a>
-            <a href="#">Hobbies</a>
-            <a href="#">Education</a>
-        </div>
-        <div class="column">
-            <h4>Contact</h4>
-            <a href="#">Don't know</a>
-            <a href="#">Don't know</a>
-            <a href="#">Don't know</a>
-        </div>
-    </footer>
+<hr class="divider">
+
+<section id="projects">
+  <p class="section-tag">What I've built</p>
+  <h2 class="section-title">Projects</h2>
+  <p class="section-sub">A mix of web development work and security-themed projects. Each one taught me something new.</p>
+  <div class="projects-grid">
+
+    <a href="https://github.com/ShirakamiKazuo/Portfolio" target="_blank" class="project-card">
+      <div class="project-card-top">
+        <div class="project-icon">🌐</div>
+        <span class="project-arrow">↗</span>
+      </div>
+      <h3>Personal Portfolio</h3>
+      <p>My personal portfolio website built with HTML, CSS, and JavaScript. Showcases my skills, projects, and contact info.</p>
+      <div class="project-tags">
+        <span class="project-tag">HTML</span>
+        <span class="project-tag">CSS</span>
+        <span class="project-tag">JavaScript</span>
+      </div>
+      <span class="project-status">Live on GitHub Pages</span>
+    </a>
+
+    <a href="https://github.com/ShirakamiKazuo/WADJ" target="_blank" class="project-card">
+      <div class="project-card-top">
+        <div class="project-icon">📁</div>
+        <span class="project-arrow">↗</span>
+      </div>
+      <h3>WADJ Project</h3>
+      <p>A web project built during my studies. Demonstrates front-end layout and styling skills with HTML and CSS.</p>
+      <div class="project-tags">
+        <span class="project-tag">HTML</span>
+        <span class="project-tag">CSS</span>
+      </div>
+    </a>
+
+    <a href="https://github.com/ShirakamiKazuo/Isekaid" target="_blank" class="project-card">
+      <div class="project-card-top">
+        <div class="project-icon">⚔️</div>
+        <span class="project-arrow">↗</span>
+      </div>
+      <h3>Isekaid</h3>
+      <p>A themed web project with custom layout and design. Built for fun — practicing creative CSS and front-end design concepts.</p>
+      <div class="project-tags">
+        <span class="project-tag">HTML</span>
+        <span class="project-tag">CSS</span>
+      </div>
+    </a>
+
+    <div class="project-card" style="border-style:dashed;cursor:default;">
+      <div class="project-card-top">
+        <div class="project-icon">🔐</div>
+      </div>
+      <h3>Security project <span style="color:var(--muted);font-weight:400;font-size:0.85rem">(coming soon)</span></h3>
+      <p>A web app with documented OWASP Top 10 hardening. Will include XSS prevention, secure auth, and input validation — all annotated for learning.</p>
+      <div class="project-tags">
+        <span class="project-tag">Python</span>
+        <span class="project-tag">OWASP</span>
+        <span class="project-tag">Security</span>
+      </div>
+      <span class="project-status" style="background:rgba(0,119,255,0.1);color:#5ba3ff;">In planning</span>
+    </div>
+
+  </div>
+</section>
+
+<hr class="divider">
+
+<section id="learning">
+  <p class="section-tag">Always growing</p>
+  <h2 class="section-title">Certifications &amp; learning</h2>
+  <p class="section-sub">My roadmap toward becoming a security-savvy web developer. Updating as I go.</p>
+  <div class="learning-grid">
+
+    <div class="cert-card">
+      <div class="cert-icon done">🎓</div>
+      <div>
+        <div class="cert-name">Bachelor of Science in Information Technology</div>
+        <div class="cert-provider">Your University · Philippines</div>
+      </div>
+      <span class="cert-badge done">Completed</span>
+    </div>
+
+    <div class="cert-card">
+      <div class="cert-icon progress">🟦</div>
+      <div>
+        <div class="cert-name">TryHackMe — Pre-Security Path</div>
+        <div class="cert-provider">TryHackMe</div>
+      </div>
+      <span class="cert-badge progress">In progress</span>
+    </div>
+
+    <div class="cert-card">
+      <div class="cert-icon progress">🟦</div>
+      <div>
+        <div class="cert-name">Google Cybersecurity Certificate</div>
+        <div class="cert-provider">Google / Coursera</div>
+      </div>
+      <span class="cert-badge planned">Planned</span>
+    </div>
+
+    <div class="cert-card">
+      <div class="cert-icon planned">📋</div>
+      <div>
+        <div class="cert-name">CompTIA Security+</div>
+        <div class="cert-provider">CompTIA</div>
+      </div>
+      <span class="cert-badge planned">Planned</span>
+    </div>
+
+    <div class="cert-card">
+      <div class="cert-icon planned">📋</div>
+      <div>
+        <div class="cert-name">eJPT — Junior Penetration Tester</div>
+        <div class="cert-provider">eLearnSecurity</div>
+      </div>
+      <span class="cert-badge planned">Planned</span>
+    </div>
+
+    <div class="cert-card">
+      <div class="cert-icon planned">📋</div>
+      <div>
+        <div class="cert-name">TryHackMe — Web Fundamentals Path</div>
+        <div class="cert-provider">TryHackMe</div>
+      </div>
+      <span class="cert-badge planned">Planned</span>
+    </div>
+
+  </div>
+</section>
+
+<hr class="divider">
+
+<section id="contact">
+  <p class="section-tag">Let's connect</p>
+  <h2 class="section-title">Get in touch</h2>
+  <p class="section-sub">
+    I'm open to internships, junior roles, freelance projects, or just a chat about web dev and cybersecurity.
+  </p>
+  <div class="contact-card">
+    <a href="https://github.com/ShirakamiKazuo" target="_blank" class="contact-link">
+      <span class="icon">🐙</span> GitHub
+    </a>
+    <a href="https://www.facebook.com/profile.php?id=100082291393545" target="_blank" class="contact-link">
+      <span class="icon">📘</span> Facebook
+    </a>
+    <a href="https://linkedin.com/in/" target="_blank" class="contact-link">
+      <span class="icon">💼</span> LinkedIn
+    </a>
+    <a href="https://tryhackme.com/" target="_blank" class="contact-link">
+      <span class="icon">🔐</span> TryHackMe
+    </a>
+  </div>
+  <div style="margin-top:2rem;text-align:center;">
+    <div class="contact-email-row">
+      <span>📧</span>
+      <span>yourname@email.com</span>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="logo">AK<span>.</span></div>
+  <div>Aldrick · BSIT Graduate · Philippines</div>
+  <div>Built with HTML, CSS &amp; love for the craft</div>
+</footer>
 
 </body>
-
 </html>
